@@ -57,7 +57,7 @@ I reorganized the data in this table and color coded the cells to get a better v
 
 ![](readme_files/figure-markdown_github/result_pp-1.png)
 
-*Figure 2 - Posterior probabilities for Porifera-sister. Recodings are: None- original amino acid data, K - KGB-6, D - Dayhoff-6, and SR-6.*
+*Figure 2 - Posterior probabilities for Porifera-sister. Recodings are: None- original amino acid data, K - KGB-6, D - Dayhoff-6, and S- SR-6.*
 
 I next color coded the results by significance, assessed as a posterior probability ≥ 0.95. This is a low threshold, most Bayesian phylogenetic studies apply a more stringent (higher) threshold to assess significance. The significance of the results is presented below in Figure 3.
 
@@ -87,13 +87,19 @@ The different results within the 16 CAT-GTR+G analyses are due to different appr
 
 While the full amino acid matrix of Chang (Figure 3, right panel, top left red cell) provides significant support for Ctenophora-sister, the recoded analyses are unresolved (Figure 3, right panel, remainder of top row) and none provide significant support for Porifera-sister.
 
-Authors of Feuda *et al.* 2017, in that manuscript and others, have strongly argued that broader outgroup sampling has a *negative* impact on this particular phylogenetic question. This is counter to the common understanding in the field that broad outgroup sampling is critical to rooting problems like this one. Given this assertion, it is interesting that reducing outgroup sampling in the Whelan matrix (Figure 3, right panel, left row bottom two cells) does not provide significant support for Porifera-sister.
+Authors of Feuda *et al.* 2017, in that manuscript and others (*e.g.* [Pick *et al.* 2010](https://doi.org/10.1093/molbev/msq089), have strongly argued that broader outgroup sampling has a *negative* impact on this particular phylogenetic question. This is counter to the common understanding in the field that broad outgroup sampling is critical to rooting problems like this one. Given this assertion, it is interesting that reducing outgroup sampling in the Whelan matrix (Figure 3, right panel, left row bottom two cells) does not provide significant support for Porifera-sister.
 
-The strong conclusions the authors made based largely on Table 3 therefore rest entirely on recoding the Whelan matrix and applying the CAT-GTR+G model. Even then, less than half (4/9) of these recoded Whelan CAT-GTR+G analyses (Figure 3, right panel, bottom right 9 cells) provide significant support for Porifera-sister.
+The strong conclusions the authors made based largely on Table 3 therefore rest entirely on recoding the Whelan matrix and applying the CAT-GTR+G model. These results are central to the paper since they include the only results with significant support for Porifera-sister. The authors also indicate that these recodings do a good job addressing issues they are concerned with in other analyses:
+
+> All recoded datasets obtained lower Z scores than the original amino acid datasets for both PPA-MAX and PPA- MEAN (Tables 1 and S1), indicating that recoding is effective at reducing lineage-specific compositional heterogeneity.
+
+Despite the author claim that this method addresses key technical problems, less than half (4/9) of these recoded Whelan CAT-GTR+G analyses (Figure 3, right panel, bottom right 9 cells) provide significant support for Porifera-sister. The results are still sensitive to the recoding strategy used and outgroup sampling. It also calls into question the robustness of results under recoding strategies. For example, none of the KGB-6 recoded analyses provide significant support for Porifera-sister, despite having improved adequacy similar to that of other recodings and relying on very similar data reduction transforms.
+
+Though the authors interpreted these recoded analyses as showing conclusive support for Porifera-sister, closer examination of the results instead indicates that improved method adequacy does not always provide stronger support for Porifera-sister and variation in support remains largely unexplained.
 
 ### Reporting results
 
-Some of these results in Table 3 were clearly described by Feuda *et al.* 2017, and others were not addressed. There are, however, also some inconsistencies between the results and the description of the results in the text. The overall impact is that the text presents much stronger support for Porifera-sister than is actually present in the results.
+Some of these results in Table 3 were clearly described by Feuda *et al.* 2017, and others were not addressed. There are, however, also some inconsistencies between the presented results and the description of the results in the text. The overall impact is that the text presents much stronger support for Porifera-sister than is actually present in the results.
 
 For example:
 
@@ -110,9 +116,9 @@ Moving beyond the last word
 
 Feuda *et al.* 2017 was not the last word in resolving the root of the animal tree. So what next?
 
-One of the most critical steps to take is to change the way we talk about the problem. In particular, insignificant phylogenetic results should not be presented as definitive resolutions of tough problems. This should always apply, but especially so in the case of highly contested questions of such broad interest. Making strong statements about insignificant results gives the impression that people with different interpretations of the available results are much further apart than they actually are.
+One of the most critical steps to take is to change the way we talk about the problem. In particular, insignificant phylogenetic results should not be presented as definitive resolutions of tough problems. This should always apply, but especially so in the case of highly contested questions of such broad interest. Making strong statements about insignificant results gives the impression that people with different interpretations of the available results are much further apart than they actually are. Making strong statements about insignificant results eventually gives the impression that phylogenetic methods are broken. They are not. How we talk about phylogenies is broken.
 
-Overstating results has given the entirely wrong impression to the broader community of where the Ctenophora-sister and Porifera-sister hypotheses stand. It is not the case that different groups of investigators are doing the same thing and getting radically different results. They are doing different things, getting slightly different results, and coming to very different conclusions. Making strong statements about insignificant results eventually gives the impression that phylogenetic methods are broken. They are not. How we talk about phylogenies is broken.
+Overstating results has given the entirely wrong impression to the broader community of where the Ctenophora-sister and Porifera-sister hypotheses stand. It is not the case that different groups of investigators are doing the same thing and getting radically different results. They are looking at similar results that consistently show sensitivity to multiple factors, and drawing very different conclusions about the implications of that sensitivity.
 
 When I look at the entirety of the impressive work done by multiple very talented groups on testing Ctenophora-sister and Porifera-sister, I come to the conclusion that at this time we cannot reject either hypothesis. I just don't find the sensitivity to species sampling, gene sampling, model selection, and now character coding conclusive. It isn't that I don't think it is impossible to come to a well-supported result if support for a phylogenetic hypothesis is sensitive to any of these factors, I just don't think we understand the sensitivity of this problem well enough to come to strong conclusions.
 
