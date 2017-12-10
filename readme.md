@@ -75,7 +75,7 @@ Feuda *et al.* 2017 examine model fit and adequacy and come to the conclusion th
 
 The results are quite variable under the CAT-GTR+G model (Figure 3, right panel). Let's break this down:
 
--   Both full matrices support Ctenophora-sister under the CAT-GTR+G model (Figure 3, right panel, top two left cells).
+-   Both full matrices support Ctenophora-sister under the CAT-GTR+G model (Figure 3, right panel, left column, top two cells).
 -   Most analyses under the CAT-GTR+G model do not provide significant support for either Ctenophora-sister or Porifera-sister (Figure 3, right panel, 10 blue cells)
 -   A subset of matrices with reduced species sampling and recoded data provide significant support for Porifera-sister (Figure 3, right panel, 4 green cells)
 
