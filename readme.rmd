@@ -24,7 +24,7 @@ There has been great interest in resolving the deepest evolutionary relationship
 
 Over a series of studies from the past 10 years, it has come to be well known that the phylogenetic positions of ctenophores and sponges are highly sensitive to model of molecular evolution, species sampling, and gene sampling (reviewed in [Dunn *et al.* 2014](http://www.annualreviews.org/doi/10.1146/annurev-ecolsys-120213-091627)). In the course of exploring this sensitivity, some studies have concluded that there is strong support for Porifera-sister, some have concluded that there is strong support for Ctenophora-sister, and some have concluded there is not yet enough evidence to definitively reject either hypothesis. My own take on the question falls into this last category.
 
-In a recent paper, [Feuda *et al.* 2017](https://doi.org/10.1016/j.cub.2017.11.008) claim to present strong significant support for Porifera-sister and to have resolved the question at last. Feuda *et al.* present a well-blocked set of phylogenetic analyses that examine support for Ctenophora-sister and Porifera-sister under a variety of conditions. They consider several factors:
+In a recent paper, [Feuda *et al.* 2017](https://doi.org/10.1016/j.cub.2017.11.008) claim to present strong, significant support for Porifera-sister and to have resolved the question at last. Feuda *et al.* present a well-blocked set of phylogenetic analyses that examine support for Ctenophora-sister and Porifera-sister under a variety of conditions. They consider several factors:
 
 - Model of molecular evolution. The primary analyses consider the GTR+G and CAT-GTR+G models. Both models accommodate different rates of change between states (General Time Reversible, GTR) and among-site rate variation (Gamma Distribution of rates, G). In addition, CAT-GTR+G accommodates different state frequencies across sites (Categorical model, CAT). 
 
@@ -38,14 +38,8 @@ This blocking of 2 models for 4 matrices for 4 types of character coding results
 
 They interpret these results as providing strong significant support for Porifera-sister.
 
-Here are the highlights that accompany their paper:
+Here are a couple of the highlights that accompany their paper:
 
-> Highlights
->
-> This is the first comparison of model adequacy in non- bilaterian phylogenomics
->
-> Animal relationships depend on the ability of the models to describe the data
->
 > Sponges are the sister group of the remaining animals
 >
 > Trees showing comb jellies as the sister of all the other
@@ -113,7 +107,7 @@ The central findings of Feuda *et al.* 2017 are presented in their Table 3. It i
 
 *Table 3 from Feuda et al. 2017.*
 
-I reorganized the data in this table and color coded the cells to get a better view the general pattern of support for Porifera-sister. This reorganized table is presented below as Figure 2.
+I reorganized the data in this table and color coded the cells to get a better view of the general pattern of support for Porifera-sister. This reorganized table is presented below as Figure 2.
 
 ```{r result_pp}
 D %>%
@@ -126,7 +120,7 @@ ggplot( aes( Recoding, Dataset ) ) +
 	theme_classic()
 ```
 
-*Figure 2 - Posterior probabilities for Porifera-sister. Recodings are: None- original amino acid data, K - KGB-6, D - Dayhoff-6, and S - SR-6.*
+*Figure 2 - Posterior probabilities for Porifera-sister. Recodings are: None- original amino acid data, K - KGB-6, D - Dayhoff-6, and SR-6.*
 
 I next color coded the results by significance, assessed as a posterior probability &ge; `r pp_thresh`. This is a low threshold, most Bayesian phylogenetic studies apply a more stringent (higher) threshold to assess significance. The significance of the results is presented below in Figure 3.
 
@@ -170,7 +164,7 @@ While the full amino acid matrix of Chang (Figure 3, right panel, top left red c
 
 Authors of Feuda *et al.* 2017, in that manuscript and others, have strongly argued that broader outgroup sampling has a *negative* impact on this particular phylogenetic question. This is counter to the common understanding in the field that broad outgroup sampling is critical to rooting problems like this one. Given this assertion, it is interesting that reducing outgroup sampling in the Whelan matrix (Figure 3, right panel, left row bottom two cells) does not provide significant support for Porifera-sister.
 
-The strong conclusions the authors made based largely on Table 3 are therefore rest entirely on recoding the Whelan matrix and applying the CAT-GTR+G model. Even then, less than half (4/9) of these recoded Whelan CAT-GTR+G analyses (Figure 3, right panel, bottom right 9 cells) provide significant support for Porifera-sister.
+The strong conclusions the authors made based largely on Table 3 therefore rest entirely on recoding the Whelan matrix and applying the CAT-GTR+G model. Even then, less than half (4/9) of these recoded Whelan CAT-GTR+G analyses (Figure 3, right panel, bottom right 9 cells) provide significant support for Porifera-sister.
 
 ### Reporting results
 
@@ -199,7 +193,7 @@ When I look at the entirety of the impressive work done by multiple very talente
 
 I also find the interactions between these factors concerning. I think that the rigorously blocked approach that Feuda *et al.* 2017 very exciting and the way of the future. It can provide a clear picture of the support landscape as it depends on different factors and their interactions. We are just looking at too small a part of the sensitivity landscape at too coarse a scale to understand the problem well enough yet. 
 
-I am optimistic that there will be significant progress on this problem in coming years. Analysis methods and tools are rapidly improving. New high-quality genome data will soon be available for many more species that are highly relevant to this question. For example, just a few days after Feuda *et al.* 2017 was published, [Belahbib et al.](https://www.biorxiv.org/content/early/2017/12/04/228452) posted a preprint presenting two new sponge genome sequences and analyses directly relevant to interpreting the biological significance of Ctenophora-sister and Porifera-sister. I look forward to to seeing how further advances in analyses and sampling impact tests of Ctenophora-sister and Porifera-sister and their impact on our understanding of animal evolution. 
+I am optimistic that there will be significant progress on this problem in coming years. Analysis methods and tools are rapidly improving. New high-quality genome data will soon be available for many more species that are highly relevant to this question. For example, just a few days after Feuda *et al.* 2017 was published, [Belahbib *et al.*](https://www.biorxiv.org/content/early/2017/12/04/228452) posted a preprint presenting two new sponge genome sequences and analyses directly relevant to interpreting the biological significance of Ctenophora-sister and Porifera-sister. I look forward to to seeing how further advances in analyses and sampling impact tests of Ctenophora-sister and Porifera-sister and their impact on our understanding of animal evolution. 
 
 
 
