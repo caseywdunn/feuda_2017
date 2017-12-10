@@ -1,0 +1,52 @@
+# Parsed fromthe legends with the following regex:
+# ^(\(.+:).+?Burnin.+?(\d+).+?cycles.+?(\d+).+?Maxdiff = ([\d\.]+).+?effsize = (\d+).+?rel_diff = ([\d\.]+).+$
+# \1\t\2\t\3\t\4\t\5\t\6
+
+Figure S1. Results of phylogenetic analyses of WhelanD20-Opistho, related to Figure 1, Table 1 and Table 3. Numbers at nodes are Bayesian posterior probabilities. 
+
+(A) Under WAG+G:	1000	2273	0	214	0.17.
+(B) Under LG+G:	500	1740	0	97	0.147486.
+(C) Under GTR+G:	500	1679	0	98	0.281729.
+(D) Under CAT-GTR+G:	20000	46067	0.0153846	40	0.383492.
+(E) Under GTR+G with Dayhoff-6 recoding:	7000	17035	0.02	733	0.0482448.
+(F) Under CAT-GTR+G with Dayhoff-6 recoding:	10000	32512	0.0488889	732	0.080975.
+(G) Under GTR+G with S&R-6 recoding:	5000	15132	0.056	406	0.13.
+(H) Under CAT-GTR+G with S&R-6 recoding:	6000	16087	0.21	468	0.13.
+(I) Under GTR+G with KGB-6 recoding:	5000	14381	0.0042	2107	0.06.
+(J) Under CAT-GTR+G with KGB-6 recoding:	8000	21145	0.03	1767	0.1
+
+Figure S2. Results of phylogenetic analyses of WhelanD20-Holo, related to Table 3. Numbers at nodes are Bayesian posterior probabilities.
+(A) Under GTR+G:	1000	2630	0.0617284	57	0.176365
+(B) Under CAT-GTR+G:	40000	88851	0.067623	41	0.656317
+(C) Under GTR+G with Dayhoff-6 recoding:	300	748	0.159091	84	0.408643
+(D) Under CAT-GTR+G with Dayhoff-6 recoding:	10000	30038	0.0475	121	0.179874
+(E) Under GTR+G with S&R-6 recoding:	5000	11673	0.102	558	0.12
+(F) Under CAT-GTR+G with S&R-6 recoding:	6000	16904	0.014	618	0.14
+(G) Under GTR+G with KGB-6 recoding:	5000	15605	0.17	2549	0.04
+(H) Under CAT-GTR+G with KGB-6 recoding:	8000	16906	0.19	1273	0.15
+
+Figure S3. Results of phylogenetic analyses: trees inferred from WhelanD20-Choano, WhelanD16-OutlierExcluded-Choano, and Whelan2017-all-outgroups. Related to Figure 1 and Table 3. Numbers at nodes are Bayesian posterior probabilities.
+(A) Under GTR+G:	1000	2832	0.010989	62	0.194923
+(B) Under CAT-GTR+G:	45000	87710	0.0491803	69	0.399076
+(C) Under GTR+G with Dayhoff-6 recoding:	1000	3338	0.0689655	176	0.244371
+(D) Under CAT-GTR+G with Dayhoff-6 recoding:	10000	21700	0.025641	227	0.12302
+(E) Under GTR+G with S&R-6 recoding:	5000	29256	0.03	2658	0.028
+(F) Under CAT-GTR+G with S&R-6 recoding:	6000	17184	0.073	613	0.1
+(G) Under GTR+G with KGB-6 recoding:	6000	16672	0.013	2347	0.04
+(H) Under CAT-GTR+G with KGB-6 recoding:	8000	22913	0.06	1666	0.147
+(I) WhelanD16-OutlierExcluded-Choano, under CAT-GTR+G (see STAR Methods – Testing the distribution of the signal in favour of Porifera-sister):	5000	17581	0.0516	87	0.414
+(J) WhelanD16-OutlierExcluded-Choano, under CAT-GTR+G with Dayhoff-6 recoding (see STAR Methods – Testing the distribu- tion of the signal in favour of Porifera-sister):	12000	41550	0.0511	1703	0.068
+(K) Whelan2017_Metazoa_Choano_RCFV_strict, under CAT-GTR+G with Dayhoff-6 recoding (see STAR Methods – Testing the effect of incrementing the number of ctenophoran lineages on the phylogenetic stability of recoded dataset):	7000	25851	0.0076	1572	0.044
+
+Figure S4. Results of phylogenetic analyses of Chang dataset, related to Figure 1, Table 1, Table 3. 
+(A) Under WAG+G:	700	1286	0	80	0.0746336
+(B) Under LG+G:	500	1276	0	170	0.203421
+(C) Under GTR+G:	900	1835	0	41	0.141715
+(D) Tree inferred by Maximum Likelihood under the optimal PF-Scheme.
+(E) Under CAT-GTR+G:	1500	6437	0.37	51	2.1
+(F) Under GTR+G with Dayhoff-6 recoding:	1000	2272	0.015748	97	0.358153
+(G) Under CAT-GTR+G with Dayhoff-6 recoding:	1000	20383	0.0628019	159	0.130441
+(H) Under GTR+G with S&R-6 recoding:	4000	9148	0.027	463	0.12
+(I) Under CAT-GTR+G with S&R-6 recoding:	5000	14687	0.13	846	0.074
+(J) Under GTR+G with K-6 recoding:	5000	11923	0.02	437	0.11
+(K) Under CAT-GTR+G with K-6 recoding:	6000	16023	0.075	484	0.096.

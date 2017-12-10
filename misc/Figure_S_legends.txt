@@ -1,0 +1,51 @@
+Figure S1. Results of phylogenetic analyses of WhelanD20-Opistho, related to Figure 1, Table 1 and Table 3. Numbers at nodes are Bayesian posterior probabilities. 
+
+(A) Under WAG+G: Burnin = 1000 samples; Total number of cycles = 2273; Bpcomp Maxdiff = 0; Tracecomp minimal overall effsize = 214; Maximal overall rel_diff = 0.17. 
+(B) Under LG+G: Burnin = 500 samples; Total number of cycles = 1740; Bpcomp Maxdiff = 0; Tracecomp minimal overall effsize = 97; Maximal overall rel_diff = 0.147486. 
+(C) Under GTR+G: Burnin: 500 samples; Total number of cycles = 1679; Bpcomp Maxdiff = 0; Tracecomp minimal overall effsize = 98; Maximal overall rel_diff = 0.281729. 
+(D) Under CAT-GTR+G: Burnin = 20000 samples; Total number of cycles = 46067; Bpcomp Maxdiff = 0.0153846; Tracecomp minimal overall effsize = 40; Maximal overall rel_diff = 0.383492. 
+(E) Under GTR+G with Dayhoff-6 recoding: Burnin = 7000 samples; Total number of cycles 17035; Bpcomp Maxdiff = 0.02; Tracecomp minimal overall effsize = 733; Maximal overall rel_diff = 0.0482448. 
+(F) Under CAT-GTR+G with Dayhoff-6 recoding: Burnin = 10000 samples; Total number of cycles = 32512; Bpcomp Maxdiff = 0.0488889; Tracecomp minimal overall effsize = 732; Maximal overall rel_diff = 0.080975. 
+(G) Under GTR+G with S&R-6 recoding: Burnin = 5000 samples; Total number of cycles = 15132; Bpcomp Maxdiff = 0.056; Trace- comp minimal overall effsize = 406; Maximal overall rel_diff = 0.13. 
+(H) Under CAT-GTR+G with S&R-6 recoding: Burnin = 6000 samples; Total number of cycles = 16087; Bpcomp Maxdiff = 0.21; Tracecomp minimal overall effsize = 468; Maximal overall rel_diff = 0.13. 
+(I) Under GTR+G with KGB-6 recoding: Burnin = 5000 samples; Total number of cycles = 14381; Bpcomp Maxdiff = 0.0042; Tracecomp minimal overall effsize = 2107; Maximal overall rel_diff = 0.06. 
+(J) Under CAT-GTR+G with KGB-6 recoding: Burnin = 8000 samples; Total number of cycles = 21145; Bpcomp Maxdiff = 0.03; Tracecomp minimal overall effsize = 1767; Maximal overall rel_diff = 0.1.
+
+Figure S2. Results of phylogenetic analyses of WhelanD20-Holo, related to Table 3. Numbers at nodes are Bayesian posterior probabilities.
+(A) Under GTR+G: Burnin = 1000 samples; Total number of cycles = 2630; Bpcomp Maxdiff = 0.0617284; Tracecomp minimal overall effsize = 57; Maximal overall rel_diff = 0.176365.
+(B) Under CAT-GTR+G: Burnin = 40000 samples; Total number of cycles = 88851; Bpcomp Maxdiff = 0.067623; Tracecomp minimal overall effsize = 41; Maximal overall rel_diff = 0.656317.
+(C) Under GTR+G with Dayhoff-6 recoding: Burnin = 300 samples; Total number of cycles = 748; Bpcomp Maxdiff = 0.159091; Tracecomp mini- mal overall effsize = 84; Maximal overall rel_diff = 0.408643.
+(D) Under CAT-GTR+G with Dayhoff-6 recoding: Burnin = 10000 samples; Total number of cycles = 30038; Bpcomp Maxdiff = 0.0475; Tracecomp minimal overall effsize = 121; Maximal overall rel_diff = 0.179874.
+(E) Under GTR+G with S&R-6 recoding: Burnin = 5000 samples; Total number of cycles = 11673; Bpcomp Maxdiff = 0.102; Tracecomp minimal overall effsize = 558; Maximal overall rel_diff = 0.12.
+(F) Under CAT-GTR+G with S&R-6 recoding: Burnin = 6000 samples; Total number of cycles = 16904; Bpcomp Maxdiff = 0.014; Tracecomp minimal overall effsize = 618; Maximal overall rel_diff = 0.14.
+(G) Under GTR+G with KGB-6 recoding: Burnin = 5000 samples; Total number of cycles = 15605; Bpcomp Maxdiff = 0.17; Tracecomp minimal overall effsize = 2549; Maximal overall rel_diff = 0.04.
+(H) Under CAT-GTR+G with KGB-6 recoding: Burnin = 8000 samples; Total number of cycles = 16906; Bpcomp Maxdiff = 0.19; Tracecomp minimal overall effsize = 1273; Maximal overall rel_diff = 0.15.
+
+Figure S3. Results of phylogenetic analyses: trees inferred from WhelanD20-Choano, WhelanD16-OutlierExcluded-Choano, and Whelan2017-all-outgroups. Related to Figure 1 and Table 3. Numbers at nodes are Bayesian posterior probabilities.
+(A) Under GTR+G: Burnin = 1000 samples; Total number of cycles = 2832; Bpcomp Maxdiff = 0.010989; Tracecomp minimal overall effsize = 62; Maximal overall rel_diff = 0.194923.
+(B) Under CAT-GTR+G: Burnin = 45000 samples; Total number of cycles = 87710; Bpcomp Maxdiff = 0.0491803; Tracecomp minimal overall effsize = 69; Maximal overall rel_diff = 0.399076.
+(C) Under GTR+G with Dayhoff-6 recoding: Burnin = 1000 samples; Total number of cycles = 3338; Bpcomp Maxdiff = 0.0689655; Tracecomp minimal overall effsize = 176; Maximal overall rel_diff = 0.244371.
+(D) Under CAT-GTR+G with Dayhoff-6 recoding: Burnin = 10000 samples; Total number of cycles = 21700; Bpcomp Maxdiff = 0.025641; Tracecomp minimal overall effsize = 227; Maximal overall rel_diff = 0.12302.
+(E) Under GTR+G with S&R-6 recoding: Burnin = 5000 samples; Total number of cycles = 29256; Bpcomp Maxdiff = 0.03; Tracecomp minimal overall effsize = 2658; Maximal overall rel_diff = 0.028.
+(F) Under CAT-GTR+G with S&R-6 recoding: Burnin = 6000 samples; Total number of cycles = 17184; Bpcomp Maxdiff = 0.073; Tracecomp minimal overall effsize = 613; Maximal overall rel_diff = 0.1.
+(G) Under GTR+G with KGB-6 recoding: Burnin = 6000 samples; Total number of cycles = 16672; Bpcomp Maxdiff = 0.013; Tracecomp minimal overall effsize = 2347; Maximal overall rel_diff = 0.04.
+(H) Under CAT-GTR+G with KGB-6 recoding: Burnin = 8000 samples; Total number of cycles = 22913; Bpcomp Maxdiff = 0.06; Tracecomp minimal overall effsize = 1666; Maximal overall rel_diff = 0.147.
+(I) WhelanD16-OutlierExcluded-Choano, under CAT-GTR+G
+(see STAR Methods – Testing the distribution of the signal in favour of Porifera-sister). Burnin = 5000 samples; Total number of cycles = 17581; Bpcomp Maxdiff = 0.0516; Tracecomp minimal overall effsize = 87; Maximal overall rel_diff = 0.414.
+(J) WhelanD16-OutlierExcluded-Choano, under CAT-GTR+G with Dayhoff-6 recoding
+(see STAR Methods – Testing the distribu- tion of the signal in favour of Porifera-sister). Burnin = 12000 samples; Total number of cycles = 41550; Bpcomp Maxdiff = 0.0511; Tracecomp min- imal overall effsize = 1703; Maximal overall rel_diff = 0.068.
+(K) Whelan2017_Metazoa_Choano_RCFV_strict, under CAT-GTR+G with Dayhoff-6 recoding
+(see STAR Methods – Testing the effect of incrementing the number of ctenophoran lineages on the phylogenetic stability of recoded dataset). Burnin = 7000 samples; Total number of cycles = 25851; Bpcomp Maxdiff = 0.0076; Tracecomp minimal overall effsize = 1572; Maximal overall rel_diff = 0.044.
+
+Figure S4. Results of phylogenetic analyses of Chang dataset, related to Figure 1, Table 1, Table 3.
+ples; Total number of cycles = 1286; Bpcomp Maxdiff = 0; Tracecomp minimal overall effsize = 80; Maximal overall rel_diff = 0.0746336.
+(B) Under LG+G: Burnin = 500 samples; Total number of cycles = 1276; Bpcomp Maxdiff = 0; Tracecomp minimal overall effsize = 170; Maximal overall rel_diff = 0.203421.
+(C) Under GTR+G: Burnin = 900 samples; Total number of cycles = 1835; Bpcomp Maxdiff = 0; Tracecomp minimal overall effsize = 41; Maximal overall rel_diff =0.141715.
+(D) Tree inferred by Maximum Likelihood under the optimal PF-Scheme.
+(E) Under CAT-GTR+G: Burnin 1500; Total number of cycles = 6437; Bpcomp Maxdiff = 0.37; Tracecomp minimal overall effsize = 51; Maximal overall rel_diff =2.1.
+(F) Under GTR+G with Dayhoff-6 recoding: Burnin = 1000 samples; Total number of cycles = 2272; Bpcomp Maxdiff = 0.015748; Tracecomp minimal overall effsize = 97; Maximal overall rel_diff = 0.358153.
+(G) Under CAT-GTR+G with Dayhoff-6 recoding: Burnin = 1000 samples; Total number of cycles = 20383; Bpcomp Maxdiff = 0.0628019; Tracecomp minimal overall effsize = 159; Maximal overall rel_diff = 0.130441.
+(H) Under GTR+G with S&R-6 recoding: Burnin = 4000 samples; Total number of cycles = 9148; Bpcomp Maxdiff = 0.027; Tracecomp minimal overall effsize = 463; Maxi- mal overall rel_diff = 0.12.
+(I) Under CAT-GTR+G with S&R-6 recoding: Burnin = 5000 samples; Total number of cycles = 14687; Bpcomp Maxdiff = 0.13; Tracecomp minimal overall effsize = 846; Maximal overall rel_diff = 0.074.
+(J) Under GTR+G with K-6 recoding: Burnin = 5000 samples; Total number of cycles = 11923; Bpcomp Maxdiff = 0.02; Tracecomp minimal overall effsize = 437; Maximal overall rel_diff = 0.11.
+(K) Under CAT-GTR+G with K-6 recoding: Burnin = 6000 samples; Total number of cycles = 16023; Bpcomp Maxdiff = 0.075; Tracecomp minimal overall effsize = 484; Maxi- mal overall rel_diff = 0.096. In panel D numbers at the nodes are bootstrap proportions. In Panels A-C, E-K numbers at the nodes are Bayesian posterior probabilities.
