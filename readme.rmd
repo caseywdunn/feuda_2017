@@ -194,11 +194,11 @@ This is not the case. Only 4 of the twelve analyses of recoded data presented in
 This is not the case. The recoded Whelan CAT-GTR+G analyses are sensitive to outgroup sampling, both in magnitude of posterior probability (Figure 2, right panel, bottom right 9 cells) and significance of posterior probability (Figure 3, right panel, bottom right 9 cells).
 
 
-## Using sensitivity to understand the support landscape
+## Sensitivity and the support landscape
 
 The sensitivity of phylogenetic analyses to taxon sampling, gene sampling, and analysis methods is often viewed as troublesome result. It provides very important insight, though, into the methods we use and the biological questions we apply them to. After ten years of intensive study, the placement of sponges and ctenophores have become one of the most thoroughly explored difficult phylogenetic problems. Examining the sensitivity of results will help us advance this particular question, and may also provide insight into how to address other hard phylogenetic questions.
 
-Feuda *et al.* explain why they interpret the sensitivity they and others present as support for Porifera-sister in a few passages, including:
+Feuda *et al.* explain why they interpret their results as evidence for Porifera-sister, even though support is sensitive to multiple factors, as follows:
 
 > The relationships at the root of the animal tree depend on model adequacy, with Ctenophora-sister emerging more prominently when the data are modeled less adequately and Porifera-sister being better supported when the data are more adequately modeled (Figure 1). As phylogenetic methods are less likely to recover artifactual topologies when the models of evolution more adequately describe the data [16–20], we conclude that Porifera-sister better represents the phylogenetic signal in the data. 
 
@@ -221,7 +221,7 @@ The work of Feuda *et al.* 2017 provides an enticing peek at a portion of this l
 
 Feuda *et al.* 2017 was not the last word in resolving the root of the animal tree. So what next?
 
-One of the most critical steps to take is to change the way we talk about the problem. In particular, insignificant phylogenetic results should not be presented as definitive resolutions of tough problems. This should always apply, but especially so in the case of highly contested questions of such broad interest. Making strong statements about insignificant results gives the impression that phylogenetic methods are broken as a question seems to bounce from one extreme answer to the other. They are not. How we talk about phylogenies is broken.
+One of the most critical steps to take is to change the way we talk about the problem. In particular, non-significant phylogenetic results should not be presented as definitive resolutions of tough problems. This should always apply, but especially so in the case of highly contested questions of such broad interest. Making strong statements about non-significant results gives the impression that phylogenetic methods are broken as a question seems to bounce from one extreme answer to the other. They are not. How we talk about phylogenies is broken.
 
 Overstating results has given the entirely wrong impression to the broader community of where the Ctenophora-sister and Porifera-sister hypotheses stand. It is not the case that different groups of investigators are doing the same thing and getting radically different results. They are looking at similar results that consistently show sensitivity to multiple factors, and drawing very different conclusions about the implications of that sensitivity.
 
