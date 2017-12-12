@@ -63,7 +63,7 @@ I reorganized the data in this table and color coded the cells to get a better v
 
 *Figure 2 - Posterior probabilities for Porifera-sister. Recodings are: None- original amino acid data, K - KGB-6, D - Dayhoff-6, and S- SR-6.*
 
-I next color coded the results by significance, assessed as a posterior probability ≥ 0.95. This is a low threshold, most Bayesian phylogenetic studies apply a more stringent (higher) threshold to assess significance. The significance of the results is presented below in Figure 3.
+I next color coded the results by significance, assessed as a posterior probability ≥ 0.95. This is a low threshold. Most Bayesian phylogenetic studies apply a more stringent (higher) threshold to assess significance. The significance of the results is presented below in Figure 3.
 
 ![](readme_files/figure-markdown_github/result_sig-1.png)
 
@@ -136,7 +136,7 @@ The excerpts from Feuda *et al.* suggest that the authors implicitly envision th
 
 Other support landscapes would have very different implications for the results they obtained. A small fraction of analyses may have supported Porifera-sister because they happened to sample a small island of support (Figure 4b) in a broader landscape that overall has patterns of support consistent with Ctenophora-sister. Alternatively, the small island of support for Porifera-sister may indicate a transition from a plateau of support for Ctenophora sister to a hilly support landscape to the east. It is unlikely that we would conclusively resolve the placement of ctenophores and sponges if this broader hilly pattern were found to be the case.
 
-The work of Feuda *et al.* 2017 provides an enticing peek at a portion of this landscape, but without broader context still fails to allow us to come to strong conclusions. Exploring additional sensitivity will help us understand this bigger picture. In this sense, sensitivity is an asset rather than a liability.
+The work of Feuda *et al.* 2017 provides an enticing glimpse at a portion of this landscape, but without broader context still fails to allow us to come to strong conclusions. Exploring additional sensitivity will help us understand this bigger picture. In this sense, sensitivity is an asset rather than a liability.
 
 Moving beyond the last word
 ---------------------------
@@ -151,7 +151,7 @@ When I look at the entirety of the impressive work done by multiple very talente
 
 GTR+G and CAT-GTR+G are very similar models that were implemented in carefully controlled ways by Feuda *et al.* 2017, yet provide very different results. What will happen when we consider other similar, adjacent models? It isn't surprising when highly different models give different results, but when adding a single set of parameters gives a radically different result we should be skeptical that we have the final word in the problem under either model. The fact that the authors claim that "recoding is effective at reducing lineage-specific compositional heterogeneity", yet still get highly inconsistent results in different recoded analyses is also problematic. It is also interesting to note that authors of Feuda *et al.* declared another set of analyses ([Pisani *et al.* 2015](http://dx.doi.org/10.1073/pnas.1518127112)) to be the [nail in the coffin of Ctenophora-sister](https://twitter.com/gwoerhe/status/671636958926499841) even though it did not use the recoding strategy that they now claim to be essential to testing these hypotheses. Such strong claims manufacture controversy where there is none and, in combination with moving goal posts, give the impression that the only consistent criterion they apply for detecting problems with analyses is finding that they support Ctenophora-sister.
 
-I think that the rigorously blocked approach that Feuda *et al.* 2017 very exciting and the way of the future. It can provide a clear picture of the support landscape as it depends on different factors and their interactions. We need to expand this approach.
+I think that the rigorously blocked approach of Feuda *et al.* 2017 is very exciting and the way of the future. It can provide a clear picture of the support landscape as it depends on different factors and their interactions. We need to expand this approach.
 
 I am optimistic that there will be significant progress on this problem in coming years. Analysis methods and tools are rapidly improving. New high-quality genome data will soon be available for many more species that are highly relevant to this question. For example, just a few days after Feuda *et al.* 2017 was published, [Belahbib *et al.*](https://www.biorxiv.org/content/early/2017/12/04/228452) posted a preprint presenting two new sponge genome sequences and analyses directly relevant to interpreting the biological significance of Ctenophora-sister and Porifera-sister. I look forward to to seeing how further advances in analyses and sampling push tests of Ctenophora-sister and Porifera-sister into new areas of the support landscape and allow us to chart its broader features. And, of course, I am excited about the impact this work will have on our understanding of animal evolution.
 
