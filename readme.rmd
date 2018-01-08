@@ -1,5 +1,5 @@
 ---
-output: 
+output:
   github_document
 ---
 
@@ -27,7 +27,7 @@ Over a series of studies from the past 10 years, it has come to be well known th
 
 In a recent paper, [Feuda *et al.* 2017](https://doi.org/10.1016/j.cub.2017.11.008) claim to present strong, significant support for Porifera-sister and to have resolved the question at last. Feuda *et al.* present a well-blocked set of phylogenetic analyses that examine support for Ctenophora-sister and Porifera-sister under a variety of conditions. They consider several factors:
 
-- Model of molecular evolution. The primary analyses consider the GTR+G and CAT-GTR+G models. Both models accommodate different rates of change between states (General Time Reversible, GTR) and among-site rate variation (Gamma Distribution of rates, G). In addition, CAT-GTR+G accommodates different state frequencies across sites (Categorical model, CAT). 
+- Model of molecular evolution. The primary analyses consider the GTR+G and CAT-GTR+G models. Both models accommodate different rates of change between states (General Time Reversible, GTR) and among-site rate variation (Gamma Distribution of rates, G). In addition, CAT-GTR+G accommodates different state frequencies across sites (Categorical model, CAT).
 
 - Dataset. They examine two matrices from previous publications, [Whelan *et al.* 2015](https://www.doi.org/10.1073/pnas.1503453112) and [Chang *et al.* 2015](https://www.doi.org/10.1073/pnas.1511468112).
 
@@ -35,7 +35,7 @@ In a recent paper, [Feuda *et al.* 2017](https://doi.org/10.1016/j.cub.2017.11.0
 
 - Character recoding. They recoded amino acids that are often exchanged for each other in the course of evolution as the same character using three different schemes (KGB-6, Dayhoff-6, SR-6). In each case, the 20 amino acids are reduced to 6 categories, with different amino acids in each category for each scheme (see their Table 2 for details). This recoding is a form of data reduction - rather than remove species or sites, it removes dynamic range within each cell of the matrix. The motivation of this recoding is to minimize the impacts of compositional bias, since different lineages and genes may tend to use different amino acids.
 
-This blocking of 2 models for 4 matrices for 4 types of character coding results in 32 analyses that form the central results of their study. 
+This blocking of 2 models for 4 matrices for 4 types of character coding results in 32 analyses that form the central results of their study.
 
 They interpret these results as providing strong significant support for Porifera-sister.
 
@@ -46,7 +46,7 @@ Here are a couple of the highlights that accompany their paper:
 > Trees showing comb jellies as the sister of all the other
 animals are artifactual
 
- 
+
 Here are some excerpts from their abstract:
 
 > Increased model adequacy is associated with significant topological changes in support of Porifera-sister.
@@ -75,7 +75,7 @@ library( scales )
 
 D = read.table( "tidy_table_3.tsv", header=TRUE, stringsAsFactors=FALSE  )
 
-D$Model = factor( D$Model, c("GTR+G", "CAT-GTR+G" ) ) 
+D$Model = factor( D$Model, c("GTR+G", "CAT-GTR+G" ) )
 
 D$Dataset = sub( "D20", "", D$Dataset )
 D$Dataset = sub( "Chang", "Chang-Holo", D$Dataset )
@@ -90,9 +90,9 @@ D$Recoding = factor( D$Recoding, c("None", "K", "D", "S" ) )
 
 pp_thresh = 0.95
 D$Result = "Unresolved"
-D$Result[ D$Porifera_sister >= pp_thresh ] = "Porifera-sister" 
-D$Result[ D$Ctenophora_sister >= pp_thresh ] = "Ctenophora-sister" 
-D$Result = factor( D$Result ) 
+D$Result[ D$Porifera_sister >= pp_thresh ] = "Porifera-sister"
+D$Result[ D$Ctenophora_sister >= pp_thresh ] = "Ctenophora-sister"
+D$Result = factor( D$Result )
 
 D$Convergence = "bad"
 D$Convergence[ D$Maxdiff <= 1 ] = "possible"
@@ -121,10 +121,10 @@ I reorganized the data in this table and color coded the cells to get a better v
 
 ```{r result_pp, fig.width=6.5, fig.height=3.1}
 D %>%
-ggplot( aes( Recoding, Dataset ) ) + 
-	geom_tile(aes(fill = Porifera_sister)) + 
+ggplot( aes( Recoding, Dataset ) ) +
+	geom_tile(aes(fill = Porifera_sister)) +
 	facet_wrap(~ Model) +
-	scale_fill_gradient(low = cteno_color, high = poro_color, limits=c(0, 1)) + 
+	scale_fill_gradient(low = cteno_color, high = poro_color, limits=c(0, 1)) +
 	geom_text(aes(label = Porifera_sister)) +
 	ggtitle("Porifera-sister Support") +
 	theme_classic()
@@ -136,10 +136,10 @@ I next color coded the results by significance, assessed as a posterior probabil
 
 ```{r result_sig, fig.width=6.5, fig.height=3.1}
 
-gg_sig = 
+gg_sig =
 	D %>%
-		ggplot( aes( Recoding, Dataset ) ) + 
-			geom_tile( aes( fill = Result ) ) + 
+		ggplot( aes( Recoding, Dataset ) ) +
+			geom_tile( aes( fill = Result ) ) +
 			facet_wrap( ~ Model ) +
 			ggtitle("Animal Root Support") +
 			theme_classic()
@@ -153,7 +153,7 @@ gg_sig
 *Figure 3 - Significance of posterior probabilities for Porifera-sister assessed as posterior probability &ge; `r pp_thresh`. *
 
 
-There are a few striking patterns in these results, which I explore below. 
+There are a few striking patterns in these results, which I explore below.
 
 ### Model
 
@@ -163,9 +163,9 @@ Feuda *et al.* 2017 examine model fit and adequacy and come to the conclusion th
 
 The results are quite variable under the CAT-GTR+G model (Figure 3, right panel). Let's break this down:
 
-- Both full matrices support Ctenophora-sister under the CAT-GTR+G model (Figure 3, right panel, left column, top two cells). 
+- Both full matrices support Ctenophora-sister under the CAT-GTR+G model (Figure 3, right panel, left column, top two cells).
 - Most analyses under the CAT-GTR+G model do not provide significant support for either Ctenophora-sister or Porifera-sister (Figure 3, right panel, 10 blue cells)
-- A subset of matrices with reduced species sampling and recoded data provide significant support for Porifera-sister (Figure 3, right panel, 4 green cells)
+- A subset of matrices with recoded data, most of which also have reduced species sampling, provide significant support for Porifera-sister (Figure 3, right panel, 4 green cells)
 
 There is significant support for Porifera-sister in only one quarter of CAT-GTR+G analyses.
 
@@ -183,9 +183,9 @@ The strong conclusions the authors made based largely on Table 3 therefore rest 
 
 > All recoded datasets obtained lower Z scores than the original amino acid datasets for both PPA-MAX and PPA- MEAN (Tables 1 and S1), indicating that recoding is effective at reducing lineage-specific compositional heterogeneity.
 
-Despite the author claim that this method addresses key technical problems, less than half (4/9) of these recoded Whelan CAT-GTR+G analyses (Figure 3, right panel, bottom right 9 cells) provide significant support for Porifera-sister. The results are still sensitive to the recoding strategy used and outgroup sampling. For example, none of the KGB-6 recoded analyses provide significant support for Porifera-sister, despite having improved adequacy similar to that of other recodings and relying on very similar data reduction transforms. This calls into question the robustness of results under recoding strategies. 
+Despite the author claim that this method addresses key technical problems, less than half (4/9) of these recoded Whelan CAT-GTR+G analyses (Figure 3, right panel, bottom right 9 cells) provide significant support for Porifera-sister. The results are still sensitive to the recoding strategy used and outgroup sampling. For example, none of the KGB-6 recoded analyses provide significant support for Porifera-sister, despite having improved adequacy similar to that of other recodings and relying on very similar data reduction transforms. This calls into question the robustness of results under recoding strategies.
 
-Though the authors interpreted these recoded analyses as showing conclusive support for Porifera-sister, closer examination of the results instead indicates that improved method adequacy does not always provide stronger support for Porifera-sister and variation in support remains largely unexplained. 
+Though the authors interpreted these recoded analyses as showing conclusive support for Porifera-sister, closer examination of the results instead indicates that improved method adequacy does not always provide stronger support for Porifera-sister and variation in support remains largely unexplained.
 
 ### Reporting results
 
@@ -195,7 +195,7 @@ For example:
 
 > Porifera-sister was favored under all recoding strategies.
 
-This is not the case. Only 4 of the twelve analyses of recoded data presented in Table 3 show significant support for Porifera-sister (Figure 3). Some recoded analyses have a posterior probability < 0.5 for Porifera-sister. 
+This is not the case. Only 4 of the twelve analyses of recoded data presented in Table 3 show significant support for Porifera-sister (Figure 3). Some recoded analyses have a posterior probability < 0.5 for Porifera-sister.
 
 > Data recoding reduced the impact of heterogeneity on our phylogenetic analyses (see also [7]), and this lent support to Porifera-sister. Notably, this result emerged independently of the outgroups included.
 
@@ -204,29 +204,29 @@ This is not the case. The recoded Whelan CAT-GTR+G analyses are sensitive to out
 
 ## Sensitivity within the presented results
 
-The primary explanation Feuda *et al.* 2017 provide for accepting some results and rejecting others is their posterior predictive (PP) analyses of model adequacy. They calculated PP for only the Whelan-Opisthokont and Chang matrices (Figures 2-3, top two rows). Based on these scores they rejected the results of the GTR-G analyses (Figures 2-3, left pane) and analyses that had not been recoded. This left six cells that are the focus of their primary conclusions (Figures 2-3, right panel, top two rows, right 3 cells). A variety of statistics from Feuda *et al.* 2017 for these six cells are presented in Figure 4. 
+The primary explanation Feuda *et al.* 2017 provide for accepting some results and rejecting others is their posterior predictive (PP) analyses of model adequacy. They calculated PP for only the Whelan-Opisthokont and Chang matrices (Figures 2-3, top two rows). Based on these scores they rejected the results of the GTR-G analyses (Figures 2-3, left pane) and analyses that had not been recoded. This left six cells that are the focus of their primary conclusions (Figures 2-3, right panel, top two rows, right 3 cells). A variety of statistics from Feuda *et al.* 2017 for these six cells are presented in Figure 4.
 
 
 
 
 ```{r result_sub}
 
-D_sub = 
+D_sub =
 	D %>%
 	rename( Porifera_sister_posterior = Porifera_sister ) %>%
-	filter(Model=="CAT-GTR+G") %>% 
-	filter( (Dataset=="Whelan-Opis") | (Dataset=="Chang-Holo") ) %>% 
+	filter(Model=="CAT-GTR+G") %>%
+	filter( (Dataset=="Whelan-Opis") | (Dataset=="Chang-Holo") ) %>%
 	filter( Recoding != "None" ) %>%
-	select (-c(Ctenophora_sister, Burnin, effsize, rel_diff)) %>% 
-	gather( var, val, Porifera_sister_posterior:PPA_MEAN ) %>% 
+	select (-c(Ctenophora_sister, Burnin, effsize, rel_diff)) %>%
+	gather( var, val, Porifera_sister_posterior:PPA_MEAN ) %>%
 	mutate( var = factor( var, levels = c("Porifera_sister_posterior", "Cycles", "Maxdiff", "PPA_DIV", "PPA_MAX", "PPA_CONV", "PPA_VAR", "PPA_MEAN")))
 
 
 
-gg_sub = 
+gg_sub =
 	D_sub %>%
-		ggplot( aes( Recoding, Dataset ) ) + 
-			geom_tile( aes( fill = Result ) ) + 
+		ggplot( aes( Recoding, Dataset ) ) +
+			geom_tile( aes( fill = Result ) ) +
 			facet_wrap( ~ var, ncol = 2 ) +
 			geom_text(aes(label = val)) +
 			scale_fill_manual( values=c( poro_color,unresolved_color ) ) +
@@ -257,7 +257,7 @@ Sensitivity of phylogenetic analyses to taxon sampling, gene sampling, and analy
 
 Feuda *et al.* explain why they interpret their results as evidence for Porifera-sister, even though support is sensitive to multiple factors, as follows:
 
-> The relationships at the root of the animal tree depend on model adequacy, with Ctenophora-sister emerging more prominently when the data are modeled less adequately and Porifera-sister being better supported when the data are more adequately modeled (Figure 1). As phylogenetic methods are less likely to recover artifactual topologies when the models of evolution more adequately describe the data [16–20], we conclude that Porifera-sister better represents the phylogenetic signal in the data. 
+> The relationships at the root of the animal tree depend on model adequacy, with Ctenophora-sister emerging more prominently when the data are modeled less adequately and Porifera-sister being better supported when the data are more adequately modeled (Figure 1). As phylogenetic methods are less likely to recover artifactual topologies when the models of evolution more adequately describe the data [16–20], we conclude that Porifera-sister better represents the phylogenetic signal in the data.
 
 > This model-dependent outcome has been interpreted as reflecting a fundamental lack of robustness [59], and it has been suggested that the relationships at the root of the animal tree might be impossible to reconstruct based on current amino acid datasets [2, 4]. However, sensitivity to the model (and to other analytical factors) does not imply an impossibility to decide which solution is most likely to be correct... the varied outcomes of phylogenetic analyses of animal relationships show a clear pattern, with Ctenophora-sister being systematically associated with the use of inadequate models and/or taxon-sampling schemes that are most likely to exacerbate systematic errors.
 
@@ -282,13 +282,12 @@ First, it is critical to change the way we talk about the problem. In particular
 
 Overstating results has given the entirely wrong impression to the broader community of where the Ctenophora-sister and Porifera-sister hypotheses stand. It is not the case that different groups of investigators are doing the same thing and getting radically different results. They are looking at similar results that consistently show sensitivity to multiple factors, and drawing very different conclusions about the implications of that sensitivity.
 
-When I look at the entirety of the impressive work done by multiple very talented groups on testing Ctenophora-sister and Porifera-sister, I come to the conclusion that at this time we cannot reject either hypothesis. I just don't find the sensitivity to species sampling, gene sampling, model selection, and now character coding conclusive. I also find the interactions between these factors concerning. We need a broader perspective of the support landscape to put the interesting results we already have into context before we can understand the implications of sensitivity for these hypotheses. 
+When I look at the entirety of the impressive work done by multiple very talented groups on testing Ctenophora-sister and Porifera-sister, I come to the conclusion that at this time we cannot reject either hypothesis. I just don't find the sensitivity to species sampling, gene sampling, model selection, and now character coding conclusive. I also find the interactions between these factors concerning. We need a broader perspective of the support landscape to put the interesting results we already have into context before we can understand the implications of sensitivity for these hypotheses.
 
-GTR+G and CAT-GTR+G are very similar models that were implemented in carefully controlled ways by Feuda *et al.* 2017, yet provide very different results. What will happen when we consider other similar, adjacent models? It isn't surprising when highly different models give different results, but when adding a single set of parameters gives a radically different result we should be skeptical that we have the final word in the problem under either model. The fact that the authors claim that "recoding is effective at reducing lineage-specific compositional heterogeneity", yet still get highly inconsistent results in different recoded analyses is also problematic. It is also interesting to note that authors of Feuda *et al.* declared another set of analyses ([Pisani *et al.* 2015](http://dx.doi.org/10.1073/pnas.1518127112)) to be the [nail in the coffin of Ctenophora-sister](https://twitter.com/gwoerhe/status/671636958926499841) even though it did not use the recoding strategy that they now claim to be essential to testing these hypotheses. Such strong claims manufacture controversy where there is none and, in combination with moving goal posts, give the impression that the only consistent criterion they apply for detecting problems with analyses is finding that they support Ctenophora-sister. 
+GTR+G and CAT-GTR+G are very similar models that were implemented in carefully controlled ways by Feuda *et al.* 2017, yet provide very different results. What will happen when we consider other similar, adjacent models? It isn't surprising when highly different models give different results, but when adding a single set of parameters gives a radically different result we should be skeptical that we have the final word in the problem under either model. The fact that the authors claim that "recoding is effective at reducing lineage-specific compositional heterogeneity", yet still get highly inconsistent results in different recoded analyses is also problematic. It is also interesting to note that authors of Feuda *et al.* declared another set of analyses ([Pisani *et al.* 2015](http://dx.doi.org/10.1073/pnas.1518127112)) to be the [nail in the coffin of Ctenophora-sister](https://twitter.com/gwoerhe/status/671636958926499841) even though it did not use the recoding strategy that they now claim to be essential to testing these hypotheses. Such strong claims manufacture controversy where there is none and, in combination with moving goal posts, give the impression that the only consistent criterion they apply for detecting problems with analyses is finding that they support Ctenophora-sister.
 
-I think that the rigorously blocked approach of Feuda *et al.* 2017 is very exciting and the way of the future. It can provide a clear picture of the support landscape as it depends on different factors and their interactions. We need to expand this approach. 
+I think that the rigorously blocked approach of Feuda *et al.* 2017 is very exciting and the way of the future. It can provide a clear picture of the support landscape as it depends on different factors and their interactions. We need to expand this approach.
 
-I am optimistic that there will be significant progress on this problem in coming years. Analysis methods and tools are rapidly improving. New high-quality genome data will soon be available for many more species that are highly relevant to this question. For example, just a few days after Feuda *et al.* 2017 was published, [Belahbib *et al.*](https://www.biorxiv.org/content/early/2017/12/04/228452) posted a preprint presenting two new sponge genome sequences and analyses directly relevant to interpreting the biological significance of Ctenophora-sister and Porifera-sister. I look forward to to seeing how further advances in analyses and sampling push tests of Ctenophora-sister and Porifera-sister into new areas of the support landscape and allow us to chart its broader features. And, of course, I am excited about the impact this work will have on our understanding of animal evolution. 
+I am optimistic that there will be significant progress on this problem in coming years. Analysis methods and tools are rapidly improving. New high-quality genome data will soon be available for many more species that are highly relevant to this question. For example, just a few days after Feuda *et al.* 2017 was published, [Belahbib *et al.*](https://www.biorxiv.org/content/early/2017/12/04/228452) posted a preprint presenting two new sponge genome sequences and analyses directly relevant to interpreting the biological significance of Ctenophora-sister and Porifera-sister. I look forward to to seeing how further advances in analyses and sampling push tests of Ctenophora-sister and Porifera-sister into new areas of the support landscape and allow us to chart its broader features. And, of course, I am excited about the impact this work will have on our understanding of animal evolution.
 
 Porifera may very well be the sister group to all other animals, but declaring them to be sister based on inconsistent and inconclusive results will make it harder to find out if they are. It discourages the very work that still needs to be done to test Porifera-sister and Ctenophora-sister. It also alienates so many people who want to know the answer (and to make progress on other hard phylogenetic problems).
-
