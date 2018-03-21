@@ -3,7 +3,7 @@
 
 #SBATCH --partition=general
 #SBATCH --constraint=avx2
-#SBATCH --ntasks=50
+#SBATCH --ntasks=100
 
 #SBATCH --mem-per-cpu=6G
 #SBATCH --time=7-00:00:00
