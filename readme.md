@@ -81,7 +81,7 @@ The results are quite variable under the CAT-GTR+G model (Figure 3, right panel)
 
 -   Both full matrices support Ctenophora-sister under the CAT-GTR+G model (Figure 3, right panel, left column, top two cells).
 -   Most analyses under the CAT-GTR+G model do not provide significant support for either Ctenophora-sister or Porifera-sister (Figure 3, right panel, 10 blue cells)
--   A subset of matrices with reduced species sampling and recoded data provide significant support for Porifera-sister (Figure 3, right panel, 4 green cells)
+-   A subset of matrices with recoded data, most of which also have reduced species sampling, provide significant support for Porifera-sister (Figure 3, right panel, 4 green cells)
 
 There is significant support for Porifera-sister in only one quarter of CAT-GTR+G analyses.
 
@@ -118,17 +118,33 @@ This is not the case. The recoded Whelan CAT-GTR+G analyses are sensitive to out
 Sensitivity within the presented results
 ----------------------------------------
 
-The primary explanation Feuda *et al.* 2017 provide for accepting some results and rejecting others is their posterior predictive (PP) analyses of model adequacy. They calculated PP for only the Whelan-Opisthokont and Chang matrices (Figures 2-3, top two rows). Based on these scores they rejected the results of the GTR-G analyses (Figures 2-3, left pane) and analyses that had not been recoded. This left six cells that are the focus of their primary conclusions (Figures 2-3, right panel, top two rows, right 3 cells). A variety of statistics from Feuda *et al.* 2017 for these six cells are presented in Figure 4.
+The primary criteria Feuda *et al.* 2017 provide for accepting some results and rejecting others is their posterior predictive (PP) analyses of model adequacy ([Bollback 2002](https://doi.org/10.1093/oxfordjournals.molbev.a004175)). Adequacy is assessed in this context by assessing how similar data simulated from the posterior distribution under the model are to the actual data. This is used as a proxy for the the ability of the model to predict future observations. Each PP analysis results in a a score indicating how different the simulated data are from the actual data. PP analyses with scores closer to 0 are interpreted as being more adequate.
+
+Different PP statistics have been developed to consider the adequacy of the models to predict different aspects of the data. Feuda *et al.* 2017 calculated five different PP statistics with the program phylobayes-mpi:
+
+-   ppa\_div (phylobayes-mpi flag `-div`, output `diversity test`). Assesses the ability to predict the mean number of states at each site.
+
+-   ppa\_conv (phylobayes-mpi flag `-siteconvprob`, output `empirical convergence probability test`). Assesses the ability to predict the probability of convergence toward the same state at a given site in different taxa.
+
+-   ppa\_var (phylobayes-mpi flag `-sitecomp`, output `across-site compositional heterogeneity test`). Assesses the ability to predict compositional heterogeneity of states across sites.
+
+-   ppa\_max (phylobayes-mpi flag `-comp`, output `max heterogeneity across taxa`). Assesses the ability to predict compositional heterogeneity of states across taxa.
+
+-   ppa\_mean (phylobayes-mpi flag `-comp`, output `mean squared heterogeneity across taxa`). Assesses the ability to predict compositional heterogeneity of states across taxa.
+
+Feuda *et al.* 2017 calculated these PP statistics for only the Whelan-Opisthokont and Chang matrices (Figures 2-3, top two rows). Based on PP scores they rejected the results of the GTR-G analyses (Figures 2-3, left pane). This leaves the eight cells shown in Figure 4, presented here with a variety of statistics from Feuda *et al.* 2017.
+
+The left column is analyses that have not been recoded, and the other three columns present the analyses for the three types of recoding. Feuda *et al.* 2017 reject the analyses that have not been recoded, all of which provide significant support for Ctenophora-sister, based on PP scores. These PP scores do not, however, uniformly indicate improved adequacy of recoded analyses over analyses that have not been recoded. Specifically, the ppa-conv analyses suggest that the analyses that have not been recoded are more adequate (ie, have a lower score) than the recoded analyses. This is the case for both the Chang and Whelan matrix. The impact of recoding on PP analyses therefore depends on the PP statistic under consideration.
 
 ![figure 4](figures/figure_4.png)
 
-*Figure 4 - Detailed examination of the analysis subset (indicated in upper right pane) that is the focus of the conclusions by Feuda et al. These are the six recoded CAT-GTR+G analyses with posterior predictive (PP) scores. The presented statistics for these six cells are posterior probability of Porifera-sister, Maxdiff (with lower scores indicating better convergence), and five PP scores (where lower absolute value indicates better model adequacy). Only one analysis provides significant support for Porifera-sister (shown in green). It is not the most adequate analysis by any of the PP scores, and showed the poorest convergence according to Maxdiff. Recodings are: K - KGB-6, D - Dayhoff-6, and S- SR-6.*
+*Figure 4 - Detailed examination of the analysis subset (indicated in upper right pane) that is the focus of the conclusions by Feuda et al. These include the six recoded CAT-GTR+G analyses with posterior predictive (PP) scores. The presented statistics for these six cells are posterior probability of Porifera-sister, Maxdiff (with lower scores indicating better convergence), and five PP scores (where lower absolute value indicates better model adequacy). Only one analysis provides significant support for Porifera-sister (shown in green). It is not the most adequate analysis by any of the PP scores, and showed the poorest convergence according to Maxdiff. Recodings are: K - KGB-6, D - Dayhoff-6, and S- SR-6.*
 
-The first thing to note is that only one of these six analyses provides significant support for Porifera-sister. This is for the SR-6 recoded Whelan-Opisthokont matrix, shown in green in Figure 4. Given the similarity of these six analyses, the fact that only one supports Porifera-sister calls into serious question the robustness of support for Porifera-sister.
+Though the major conclusion of Feuda *et al.* is that their "results strongly support sponges as the sister group of all other animals", only one of these analyses provides significant support for Porifera-sister. This is for the SR-6 recoded Whelan-Opisthokont matrix, shown in green in Figure 4. The fact that only one of these analyses provides significant support for Porifera-sister calls into serious question the robustness of support for Porifera-sister.
 
-The other statistics help put this single significant result into context, and they could be used to provide explicit criteria for favoring the one significant result over the five insignificant results. Feuda *et al.* present PP as the primary criterion we should consider. The one analysis with significant support for Porifera-sister does not have the best (lowest absolute value) PP score for any of the five PP statistics considered (Figure 4). By their own criterion of model adequacy, we should favor the unresolved analyses. Within these recoded CAT-GTR+G analyses, there is not a trend toward increased support for Porifera-sister with increasing model adequacy.
+The other statistics help put this single significant result into context, and they could be used to provide explicit criteria for favoring the one significant result over the five insignificant results. Feuda *et al.* present PP as the primary criterion we should consider. The one analysis with significant support for Porifera-sister does not have the best (lowest absolute value) PP score for any of the five PP statistics considered (Figure 4). By their own criterion of model adequacy, we should favor either analyses that provide strong significant support for Ctenophora-sister (if ppa\_conv is considered) or unresolved analyses (if any of the other four PP statistics are considered). There is not a trend toward increased support for Porifera-sister with increasing model adequacy.
 
-In fact, the only statistic that stands out for the significant analysis is the high Maxdiff score, which indicates it is the most poorly converged of these six focal analyses.
+The only statistic that stands out for the one analysis with PP scores that provides significant support for Porifera-sister is a high Maxdiff score (Figure 4). This score indicates it is the most poorly converged of the recoded analyses.
 
 Sensitivity and the broader support landscape
 ---------------------------------------------
