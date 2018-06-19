@@ -1,0 +1,290 @@
+Command: alt_recode.py WhelanD20_AA.phy 4
+n_taxa: 70
+output file: WhelanD20_AA_mod_transform-none_states-20.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-20.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-20.phy     original code: A C D E F G H I V K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-none_states-20.phy  transformed code: A C D E F G H I V K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-none_states-20.phy   complete map in: ACDEFGHIVKLMNPQRSTWY
+output file: WhelanD20_AA_mod_transform-none_states-20.phy  complete map out: ACDEFGHIVKLMNPQRSTWY
+output file: WhelanD20_AA_mod_transform-none_states-20.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-20.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-18.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-18.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-18.phy     original code: A C DE F G H IV K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-none_states-18.phy  transformed code: A C DE F G H IV K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-none_states-18.phy   complete map in: ACDEFGHIVKLMNPQRSTWY
+output file: WhelanD20_AA_mod_transform-none_states-18.phy  complete map out: ACDDFGHIIKLMNPQRSTWY
+output file: WhelanD20_AA_mod_transform-none_states-18.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-18.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-16.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-16.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-16.phy     original code: AT C DE F G H IV KR L M N P Q S W Y
+output file: WhelanD20_AA_mod_transform-none_states-16.phy  transformed code: AT C DE F G H IV KR L M N P Q S W Y
+output file: WhelanD20_AA_mod_transform-none_states-16.phy   complete map in: ATCDEFGHIVKRLMNPQSWY
+output file: WhelanD20_AA_mod_transform-none_states-16.phy  complete map out: AACDDFGHIIKKLMNPQSWY
+output file: WhelanD20_AA_mod_transform-none_states-16.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-16.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-14.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-14.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-14.phy     original code: AST C DE FL G H IV KR M N P Q W Y
+output file: WhelanD20_AA_mod_transform-none_states-14.phy  transformed code: AST C DE FL G H IV KR M N P Q W Y
+output file: WhelanD20_AA_mod_transform-none_states-14.phy   complete map in: ASTCDEFLGHIVKRMNPQWY
+output file: WhelanD20_AA_mod_transform-none_states-14.phy  complete map out: AAACDDFFGHIIKKMNPQWY
+output file: WhelanD20_AA_mod_transform-none_states-14.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-14.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-12.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-12.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-12.phy     original code: AST C DE FY G HQ IV KR LM N P W
+output file: WhelanD20_AA_mod_transform-none_states-12.phy  transformed code: AST C DE FY G HQ IV KR LM N P W
+output file: WhelanD20_AA_mod_transform-none_states-12.phy   complete map in: ASTCDEFYGHQIVKRLMNPW
+output file: WhelanD20_AA_mod_transform-none_states-12.phy  complete map out: AAACDDFFGHHIIKKLLNPW
+output file: WhelanD20_AA_mod_transform-none_states-12.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-12.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-10.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-10.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-10.phy     original code: AST CW DE FY GN HQ IV KR LM P
+output file: WhelanD20_AA_mod_transform-none_states-10.phy  transformed code: AST CW DE FY GN HQ IV KR LM P
+output file: WhelanD20_AA_mod_transform-none_states-10.phy   complete map in: ASTCWDEFYGNHQIVKRLMP
+output file: WhelanD20_AA_mod_transform-none_states-10.phy  complete map out: AAACCDDFFGGHHIIKKLLP
+output file: WhelanD20_AA_mod_transform-none_states-10.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-10.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-08.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-08.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-08.phy     original code: AST CG DEN FY HP ILV KQR MW
+output file: WhelanD20_AA_mod_transform-none_states-08.phy  transformed code: AST CG DEN FY HP ILV KQR MW
+output file: WhelanD20_AA_mod_transform-none_states-08.phy   complete map in: ASTCGDENFYHPILVKQRMW
+output file: WhelanD20_AA_mod_transform-none_states-08.phy  complete map out: AAACCDDDFFHHIIIKKKMM
+output file: WhelanD20_AA_mod_transform-none_states-08.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-08.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-none_states-06.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-06.phy transform map out: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-none_states-06.phy     original code: APST CW DEGN FHY ILMV KQR
+output file: WhelanD20_AA_mod_transform-none_states-06.phy  transformed code: APST CW DEGN FHY ILMV KQR
+output file: WhelanD20_AA_mod_transform-none_states-06.phy   complete map in: APSTCWDEGNFHYILMVKQR
+output file: WhelanD20_AA_mod_transform-none_states-06.phy  complete map out: AAAACCDDDDFFFIIIIKKK
+output file: WhelanD20_AA_mod_transform-none_states-06.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-none_states-06.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-18.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-18.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-18.phy     original code: A C DE F G H IV K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-00_states-18.phy  transformed code: M A ID T G R WF S N L Q P V H K E Y C
+output file: WhelanD20_AA_mod_transform-00_states-18.phy   complete map in: MAIDTGRWFSNLQPVHKEYC
+output file: WhelanD20_AA_mod_transform-00_states-18.phy  complete map out: MAIITGRWWSNLQPVHKEYC
+output file: WhelanD20_AA_mod_transform-00_states-18.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-18.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-16.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-16.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-16.phy     original code: AT C DE F G H IV KR L M N P Q S W Y
+output file: WhelanD20_AA_mod_transform-00_states-16.phy  transformed code: ME A ID T G R WF SH N L Q P V K Y C
+output file: WhelanD20_AA_mod_transform-00_states-16.phy   complete map in: MEAIDTGRWFSHNLQPVKYC
+output file: WhelanD20_AA_mod_transform-00_states-16.phy  complete map out: MMAIITGRWWSSNLQPVKYC
+output file: WhelanD20_AA_mod_transform-00_states-16.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-16.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-14.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-14.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-14.phy     original code: AST C DE FL G H IV KR M N P Q W Y
+output file: WhelanD20_AA_mod_transform-00_states-14.phy  transformed code: MKE A ID TN G R WF SH L Q P V Y C
+output file: WhelanD20_AA_mod_transform-00_states-14.phy   complete map in: MKEAIDTNGRWFSHLQPVYC
+output file: WhelanD20_AA_mod_transform-00_states-14.phy  complete map out: MMMAIITTGRWWSSLQPVYC
+output file: WhelanD20_AA_mod_transform-00_states-14.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-14.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-12.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-12.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-12.phy     original code: AST C DE FY G HQ IV KR LM N P W
+output file: WhelanD20_AA_mod_transform-00_states-12.phy  transformed code: MKE A ID TC G RV WF SH NL Q P Y
+output file: WhelanD20_AA_mod_transform-00_states-12.phy   complete map in: MKEAIDTCGRVWFSHNLQPY
+output file: WhelanD20_AA_mod_transform-00_states-12.phy  complete map out: MMMAIITTGRRWWSSNNQPY
+output file: WhelanD20_AA_mod_transform-00_states-12.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-12.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-10.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-10.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-10.phy     original code: AST CW DE FY GN HQ IV KR LM P
+output file: WhelanD20_AA_mod_transform-00_states-10.phy  transformed code: MKE AY ID TC GQ RV WF SH NL P
+output file: WhelanD20_AA_mod_transform-00_states-10.phy   complete map in: MKEAYIDTCGQRVWFSHNLP
+output file: WhelanD20_AA_mod_transform-00_states-10.phy  complete map out: MMMAAIITTGGRRWWSSNNP
+output file: WhelanD20_AA_mod_transform-00_states-10.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-10.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-08.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-08.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-08.phy     original code: AST CG DEN FY HP ILV KQR MW
+output file: WhelanD20_AA_mod_transform-00_states-08.phy  transformed code: MKE AG IDQ TC RP WNF SVH LY
+output file: WhelanD20_AA_mod_transform-00_states-08.phy   complete map in: MKEAGIDQTCRPWNFSVHLY
+output file: WhelanD20_AA_mod_transform-00_states-08.phy  complete map out: MMMAAIIITTRRWWWSSSLL
+output file: WhelanD20_AA_mod_transform-00_states-08.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-08.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-00_states-06.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-00_states-06.phy transform map out: MIDGSQPVHKEATRWNLFYC
+output file: WhelanD20_AA_mod_transform-00_states-06.phy     original code: APST CW DEGN FHY ILMV KQR
+output file: WhelanD20_AA_mod_transform-00_states-06.phy  transformed code: MPKE AY IDGQ TRC WNLF SVH
+output file: WhelanD20_AA_mod_transform-00_states-06.phy   complete map in: MPKEAYIDGQTRCWNLFSVH
+output file: WhelanD20_AA_mod_transform-00_states-06.phy  complete map out: MMMMAAIIIITTTWWWWSSS
+output file: WhelanD20_AA_mod_transform-00_states-06.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-00_states-06.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-18.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-18.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-18.phy     original code: A C DE F G H IV K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-01_states-18.phy  transformed code: E W QV N P K SA R C H G I Y D F T L M
+output file: WhelanD20_AA_mod_transform-01_states-18.phy   complete map in: EWQVNPKSARCHGIYDFTLM
+output file: WhelanD20_AA_mod_transform-01_states-18.phy  complete map out: EWQQNPKSSRCHGIYDFTLM
+output file: WhelanD20_AA_mod_transform-01_states-18.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-18.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-16.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-16.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-16.phy     original code: AT C DE F G H IV KR L M N P Q S W Y
+output file: WhelanD20_AA_mod_transform-01_states-16.phy  transformed code: ET W QV N P K SA RD C H G I Y F L M
+output file: WhelanD20_AA_mod_transform-01_states-16.phy   complete map in: ETWQVNPKSARDCHGIYFLM
+output file: WhelanD20_AA_mod_transform-01_states-16.phy  complete map out: EEWQQNPKSSRRCHGIYFLM
+output file: WhelanD20_AA_mod_transform-01_states-16.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-16.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-14.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-14.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-14.phy     original code: AST C DE FL G H IV KR M N P Q W Y
+output file: WhelanD20_AA_mod_transform-01_states-14.phy  transformed code: EFT W QV NC P K SA RD H G I Y L M
+output file: WhelanD20_AA_mod_transform-01_states-14.phy   complete map in: EFTWQVNCPKSARDHGIYLM
+output file: WhelanD20_AA_mod_transform-01_states-14.phy  complete map out: EEEWQQNNPKSSRRHGIYLM
+output file: WhelanD20_AA_mod_transform-01_states-14.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-14.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-12.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-12.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-12.phy     original code: AST C DE FY G HQ IV KR LM N P W
+output file: WhelanD20_AA_mod_transform-01_states-12.phy  transformed code: EFT W QV NM P KY SA RD CH G I L
+output file: WhelanD20_AA_mod_transform-01_states-12.phy   complete map in: EFTWQVNMPKYSARDCHGIL
+output file: WhelanD20_AA_mod_transform-01_states-12.phy  complete map out: EEEWQQNNPKKSSRRCCGIL
+output file: WhelanD20_AA_mod_transform-01_states-12.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-12.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-10.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-10.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-10.phy     original code: AST CW DE FY GN HQ IV KR LM P
+output file: WhelanD20_AA_mod_transform-01_states-10.phy  transformed code: EFT WL QV NM PG KY SA RD CH I
+output file: WhelanD20_AA_mod_transform-01_states-10.phy   complete map in: EFTWLQVNMPGKYSARDCHI
+output file: WhelanD20_AA_mod_transform-01_states-10.phy  complete map out: EEEWWQQNNPPKKSSRRCCI
+output file: WhelanD20_AA_mod_transform-01_states-10.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-10.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-08.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-08.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-08.phy     original code: AST CG DEN FY HP ILV KQR MW
+output file: WhelanD20_AA_mod_transform-01_states-08.phy  transformed code: EFT WP QVG NM KI SCA RYD HL
+output file: WhelanD20_AA_mod_transform-01_states-08.phy   complete map in: EFTWPQVGNMKISCARYDHL
+output file: WhelanD20_AA_mod_transform-01_states-08.phy  complete map out: EEEWWQQQNNKKSSSRRRHH
+output file: WhelanD20_AA_mod_transform-01_states-08.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-08.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-01_states-06.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-01_states-06.phy transform map out: EQVPRGIYDFTWNKSCHALM
+output file: WhelanD20_AA_mod_transform-01_states-06.phy     original code: APST CW DEGN FHY ILMV KQR
+output file: WhelanD20_AA_mod_transform-01_states-06.phy  transformed code: EIFT WL QVPG NKM SCHA RYD
+output file: WhelanD20_AA_mod_transform-01_states-06.phy   complete map in: EIFTWLQVPGNKMSCHARYD
+output file: WhelanD20_AA_mod_transform-01_states-06.phy  complete map out: EEEEWWQQQQNNNSSSSRRR
+output file: WhelanD20_AA_mod_transform-01_states-06.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-01_states-06.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-18.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-18.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-18.phy     original code: A C DE F G H IV K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-02_states-18.phy  transformed code: L G WP V T R YN M E F I C A H Q S K D
+output file: WhelanD20_AA_mod_transform-02_states-18.phy   complete map in: LGWPVTRYNMEFICAHQSKD
+output file: WhelanD20_AA_mod_transform-02_states-18.phy  complete map out: LGWWVTRYYMEFICAHQSKD
+output file: WhelanD20_AA_mod_transform-02_states-18.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-18.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-16.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-16.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-16.phy     original code: AT C DE F G H IV KR L M N P Q S W Y
+output file: WhelanD20_AA_mod_transform-02_states-16.phy  transformed code: LS G WP V T R YN MH E F I C A Q K D
+output file: WhelanD20_AA_mod_transform-02_states-16.phy   complete map in: LSGWPVTRYNMHEFICAQKD
+output file: WhelanD20_AA_mod_transform-02_states-16.phy  complete map out: LLGWWVTRYYMMEFICAQKD
+output file: WhelanD20_AA_mod_transform-02_states-16.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-16.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-14.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-14.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-14.phy     original code: AST C DE FL G H IV KR M N P Q W Y
+output file: WhelanD20_AA_mod_transform-02_states-14.phy  transformed code: LQS G WP VE T R YN MH F I C A K D
+output file: WhelanD20_AA_mod_transform-02_states-14.phy   complete map in: LQSGWPVETRYNMHFICAKD
+output file: WhelanD20_AA_mod_transform-02_states-14.phy  complete map out: LLLGWWVVTRYYMMFICAKD
+output file: WhelanD20_AA_mod_transform-02_states-14.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-14.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-12.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-12.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-12.phy     original code: AST C DE FY G HQ IV KR LM N P W
+output file: WhelanD20_AA_mod_transform-02_states-12.phy  transformed code: LQS G WP VD T RA YN MH EF I C K
+output file: WhelanD20_AA_mod_transform-02_states-12.phy   complete map in: LQSGWPVDTRAYNMHEFICK
+output file: WhelanD20_AA_mod_transform-02_states-12.phy  complete map out: LLLGWWVVTRRYYMMEEICK
+output file: WhelanD20_AA_mod_transform-02_states-12.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-12.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-10.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-10.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-10.phy     original code: AST CW DE FY GN HQ IV KR LM P
+output file: WhelanD20_AA_mod_transform-02_states-10.phy  transformed code: LQS GK WP VD TI RA YN MH EF C
+output file: WhelanD20_AA_mod_transform-02_states-10.phy   complete map in: LQSGKWPVDTIRAYNMHEFC
+output file: WhelanD20_AA_mod_transform-02_states-10.phy  complete map out: LLLGGWWVVTTRRYYMMEEC
+output file: WhelanD20_AA_mod_transform-02_states-10.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-10.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-08.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-08.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-08.phy     original code: AST CG DEN FY HP ILV KQR MW
+output file: WhelanD20_AA_mod_transform-02_states-08.phy  transformed code: LQS GT WPI VD RC YEN MAH FK
+output file: WhelanD20_AA_mod_transform-02_states-08.phy   complete map in: LQSGTWPIVDRCYENMAHFK
+output file: WhelanD20_AA_mod_transform-02_states-08.phy  complete map out: LLLGGWWWVVRRYYYMMMFF
+output file: WhelanD20_AA_mod_transform-02_states-08.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-08.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-02_states-06.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-02_states-06.phy transform map out: LWPTMICAHQSGVRYEFNKD
+output file: WhelanD20_AA_mod_transform-02_states-06.phy     original code: APST CW DEGN FHY ILMV KQR
+output file: WhelanD20_AA_mod_transform-02_states-06.phy  transformed code: LCQS GK WPTI VRD YEFN MAH
+output file: WhelanD20_AA_mod_transform-02_states-06.phy   complete map in: LCQSGKWPTIVRDYEFNMAH
+output file: WhelanD20_AA_mod_transform-02_states-06.phy  complete map out: LLLLGGWWWWVVVYYYYMMM
+output file: WhelanD20_AA_mod_transform-02_states-06.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-02_states-06.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-18.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-18.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-18.phy     original code: A C DE F G H IV K L M N P Q R S T W Y
+output file: WhelanD20_AA_mod_transform-03_states-18.phy  transformed code: I T KD E L S AF G P C M W R N Q V Y H
+output file: WhelanD20_AA_mod_transform-03_states-18.phy   complete map in: ITKDELSAFGPCMWRNQVYH
+output file: WhelanD20_AA_mod_transform-03_states-18.phy  complete map out: ITKKELSAAGPCMWRNQVYH
+output file: WhelanD20_AA_mod_transform-03_states-18.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-18.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-16.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-16.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-16.phy     original code: AT C DE F G H IV KR L M N P Q S W Y
+output file: WhelanD20_AA_mod_transform-03_states-16.phy  transformed code: IV T KD E L S AF GN P C M W R Q Y H
+output file: WhelanD20_AA_mod_transform-03_states-16.phy   complete map in: IVTKDELSAFGNPCMWRQYH
+output file: WhelanD20_AA_mod_transform-03_states-16.phy  complete map out: IITKKELSAAGGPCMWRQYH
+output file: WhelanD20_AA_mod_transform-03_states-16.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-16.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-14.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-14.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-14.phy     original code: AST C DE FL G H IV KR M N P Q W Y
+output file: WhelanD20_AA_mod_transform-03_states-14.phy  transformed code: IQV T KD EP L S AF GN C M W R Y H
+output file: WhelanD20_AA_mod_transform-03_states-14.phy   complete map in: IQVTKDEPLSAFGNCMWRYH
+output file: WhelanD20_AA_mod_transform-03_states-14.phy  complete map out: IIITKKEELSAAGGCMWRYH
+output file: WhelanD20_AA_mod_transform-03_states-14.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-14.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-12.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-12.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-12.phy     original code: AST C DE FY G HQ IV KR LM N P W
+output file: WhelanD20_AA_mod_transform-03_states-12.phy  transformed code: IQV T KD EH L SR AF GN PC M W Y
+output file: WhelanD20_AA_mod_transform-03_states-12.phy   complete map in: IQVTKDEHLSRAFGNPCMWY
+output file: WhelanD20_AA_mod_transform-03_states-12.phy  complete map out: IIITKKEELSSAAGGPPMWY
+output file: WhelanD20_AA_mod_transform-03_states-12.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-12.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-10.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-10.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-10.phy     original code: AST CW DE FY GN HQ IV KR LM P
+output file: WhelanD20_AA_mod_transform-03_states-10.phy  transformed code: IQV TY KD EH LM SR AF GN PC W
+output file: WhelanD20_AA_mod_transform-03_states-10.phy   complete map in: IQVTYKDEHLMSRAFGNPCW
+output file: WhelanD20_AA_mod_transform-03_states-10.phy  complete map out: IIITTKKEELLSSAAGGPPW
+output file: WhelanD20_AA_mod_transform-03_states-10.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-10.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-08.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-08.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-08.phy     original code: AST CG DEN FY HP ILV KQR MW
+output file: WhelanD20_AA_mod_transform-03_states-08.phy  transformed code: IQV TL KDM EH SW APF GRN CY
+output file: WhelanD20_AA_mod_transform-03_states-08.phy   complete map in: IQVTLKDMEHSWAPFGRNCY
+output file: WhelanD20_AA_mod_transform-03_states-08.phy  complete map out: IIITTKKKEESSAAAGGGCC
+output file: WhelanD20_AA_mod_transform-03_states-08.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-08.phy  states in recode but not data: 
+output file: WhelanD20_AA_mod_transform-03_states-06.phy  transform map in: ADEGKNPQRSTCFHILMVWY
+output file: WhelanD20_AA_mod_transform-03_states-06.phy transform map out: IKDLGMWRNQVTESAPCFYH
+output file: WhelanD20_AA_mod_transform-03_states-06.phy     original code: APST CW DEGN FHY ILMV KQR
+output file: WhelanD20_AA_mod_transform-03_states-06.phy  transformed code: IWQV TY KDLM ESH APCF GRN
+output file: WhelanD20_AA_mod_transform-03_states-06.phy   complete map in: IWQVTYKDLMESHAPCFGRN
+output file: WhelanD20_AA_mod_transform-03_states-06.phy  complete map out: IIIITTKKKKEEEAAAAGGG
+output file: WhelanD20_AA_mod_transform-03_states-06.phy  states in data but not recode: X-
+output file: WhelanD20_AA_mod_transform-03_states-06.phy  states in recode but not data: 

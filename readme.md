@@ -8,6 +8,7 @@ This repository contains analyses and documents that consider the manuscript:
 
 These include:
 
-- An [essay](essay.md) about Feuda et al.
+- An [essay](essay.md) about Feuda et al. that explores a variety of issues related to their paper.
 
+- A draft [manuscript](manuscript.md) that focuses on a couple specific issues with their study. 
 
